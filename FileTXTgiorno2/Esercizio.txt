@@ -1995,3 +1995,5 @@ Primo esercizio
 74	12	Corso di Laurea Magistrale in Linguistica	magistrale	Strada Pellegrino 3 Appartamento 85	linguistica@uni.it	www.linguistica.uni.it
 75	12	Corso di Laurea Magistrale in Strategie di Comunicazione	magistrale	Strada Gentile 493	strategie-di-comunicazione@uni.it	www.strategie-di-comunicazione.uni.it
 						
+
+                        '12'
