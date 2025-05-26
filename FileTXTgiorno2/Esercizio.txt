@@ -1996,9 +1996,10 @@ Primo esercizio
 75	12	Corso di Laurea Magistrale in Strategie di Comunicazione	magistrale	Strada Gentile 493	strategie-di-comunicazione@uni.it	www.strategie-di-comunicazione.uni.it
 						
 
+SELECT COUNT(*)
+from `departments`
+
                         '12'
-
-
 
 SELECT COUNT(*)
 from `teachers`
