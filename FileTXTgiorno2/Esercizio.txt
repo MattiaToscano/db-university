@@ -1997,3 +1997,11 @@ Primo esercizio
 						
 
                         '12'
+
+
+
+SELECT COUNT(*)
+from `teachers`
+where phone is null or phone = ''
+
+'50'
