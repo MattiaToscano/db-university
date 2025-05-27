@@ -3238,3 +3238,87 @@ Corso di Laurea Magistrale in Linguistica	quia totam sunt	Soriana	Pellegrino
 Corso di Laurea Magistrale in Biologia sanitaria	tenetur animi autem	Ortensia	Testa
 Corso di Laurea in Ingegneria Civile	deserunt quia non	Ortensia	Testa
 Corso di Laurea in Ingegneria Edile - Architettura	dolores ex sequi	Ortensia	Testa
+
+
+
+
+SELECT teachers.* 
+FROM teachers
+JOIN course_teacher ON teachers.id = course_teacher.teacher_id
+JOIN courses ON course_teacher.course_id = courses.id
+JOIN degrees ON courses.degree_id = degrees.id
+JOIN departments ON degrees.department_id = departments.id
+WHERE departments.name = 'Dipartimento di Matematica';
+
+
+
+98	Cristyn	Martinelli		nicoletta67@longo.com	Contrada Amato 58 Piano 2	1
+51	Folco	Piras		gregorio.valentini@gmail.com	Strada Neri 577	107
+78	Kristel	Bellini		lamberto29@palmieri.org	Strada Concetta 6	91
+25	Concetta	Bianchi	+58 211 72300216	giobbe99@libero.it	Strada Kociss 997 Piano 8	124
+13	Tosca	Donati	+97 9502 52491933	marco26@yahoo.it	Rotonda Martinelli 309	119
+73	Elda	Bruno	+62 35 8488435	diamante.monti@battaglia.it	Piazza Ferretti 619	101
+45	Eusebio	Pellegrini	+16 76 8795400	prisca.giuliani@santoro.com	Borgo Elio 234 Piano 4	106
+19	Ione	Mariani		qriva@amato.com	Strada Neri 577	76
+92	Mariagiulia	Guerra	+39 314 686 094	leone07@desantis.net	Rotonda Carmela 10 Piano 1	33
+67	Ivonne	Neri	+61 72 18587184	sorrentino.violante@hotmail.com	Via Elga 7 Piano 4	138
+38	Rufo	Morelli		zelida16@email.it	Piazza Pellegrino 613 Piano 8	161
+87	Gianantonio	Monti	+39 076 918 693	mariagiulia.riva@gmail.com	Contrada Amato 58 Piano 2	112
+33	Cassiopea	Valentini		romeo94@battaglia.it	Contrada Rita 5 Appartamento 71	21
+89	Piererminio	Greco		gaetano.barone@yahoo.it	Via Mariano 48	129
+10	Maria	Esposito	+30 91 02098027	caruso.davide@yahoo.it	Strada Vitali 8 Piano 0	128
+68	Cleopatra	Rinaldi	394 643 755	uvitale@silvestri.it	Rotonda Carmela 10 Piano 1	104
+28	Rudy	Fontana		lombardo.nestore@colombo.it	Piazza Aroldo 8 Appartamento 85	110
+98	Cristyn	Martinelli		nicoletta67@longo.com	Contrada Amato 58 Piano 2	1
+13	Tosca	Donati	+97 9502 52491933	marco26@yahoo.it	Rotonda Martinelli 309	119
+14	Pericle	Rossetti	343 467 240	diana94@hotmail.com	Borgo Demis 1	11
+48	Nabil	Rossetti		ivonne.derosa@yahoo.it	Rotonda Carmela 10 Piano 1	88
+20	Marvin	Ferrari		smazza@gmail.com	Borgo Elio 234 Piano 4	72
+47	Bibiana	Farina		lferrara@marino.it	Via Eusebio 167 Appartamento 28	196
+44	Fulvio	Amato		ubianco@bellini.com	Strada Lombardi 855	78
+48	Nabil	Rossetti		ivonne.derosa@yahoo.it	Rotonda Carmela 10 Piano 1	88
+30	Cosetta	Palmieri	+39 382 251 589	dindo57@palmieri.it	Via Eusebio 167 Appartamento 28	60
+81	Laerte	Mancini		milani.alighiero@gallo.it	Rotonda Carmela 10 Piano 1	173
+26	Carmelo	Benedetti	+39 010 391 127	rossetti.erminia@yahoo.it	Rotonda Martinelli 309	77
+52	Pablo	Caruso		caio.caputo@conti.it	Borgo Elga 89	97
+17	Rosaria	Neri	344 690 022	rosalba.rizzo@grassi.it	Piazza Demian 856 Appartamento 63	171
+4	Prisca	Caputo	+33 37 87454077	lazzaro12@hotmail.com	Via Mariano 48	2
+43	Penelope	Bruno		htesta@milani.com	Rotonda Martinelli 309	163
+64	Loretta	Amato	+26 383 40 14 3011	lucia.lombardo@yahoo.it	Incrocio Marini 9	164
+66	Felicia	Testa		doriana.vitale@fabbri.it	Contrada Penelope 73	113
+21	Michele	Milani		nico.morelli@donati.org	Contrada Santoro 17 Appartamento 30	184
+61	Cosetta	Costantini	+02 4239 6196733	valentini.giovanna@yahoo.com	Rotonda Martinelli 309	164
+88	Piersilvio	Rinaldi	+19 787 5568494	igreco@sanna.net	Incrocio Testa 142 Piano 7	88
+18	Lorenzo	Rizzi		gallo.samira@hotmail.com	Strada Vitali 8 Piano 0	124
+51	Folco	Piras		gregorio.valentini@gmail.com	Strada Neri 577	107
+7	Noemi	Ferraro	348 610 711	amarini@gmail.com	Contrada Amato 58 Piano 2	185
+83	Isira	Santoro		rosalino20@neri.com	Borgo Elio 234 Piano 4	70
+33	Cassiopea	Valentini		romeo94@battaglia.it	Contrada Rita 5 Appartamento 71	21
+81	Laerte	Mancini		milani.alighiero@gallo.it	Rotonda Carmela 10 Piano 1	173
+50	Sarita	Donati	+21 443 59 54 4170	aparisi@galli.com	Borgo Ippolito 5 Piano 5	178
+69	Evita	Morelli	+39 310 272 545	grazia66@hotmail.com	Piazza Ferretti 619	106
+53	Cira	Caputo		amerigo.carbone@monti.org	Piazza Demian 856 Appartamento 63	51
+82	Felicia	Serra		egidio17@email.it	Strada Kociss 997 Piano 8	169
+79	Benedetta	Vitale	+39 377 152 789	bianco.ursula@ferraro.com	Strada Kociss 997 Piano 8	192
+35	Gavino	Fabbri		ndesantis@negri.com	Rotonda Martinelli 309	150
+83	Isira	Santoro		rosalino20@neri.com	Borgo Elio 234 Piano 4	70
+92	Mariagiulia	Guerra	+39 314 686 094	leone07@desantis.net	Rotonda Carmela 10 Piano 1	33
+81	Laerte	Mancini		milani.alighiero@gallo.it	Rotonda Carmela 10 Piano 1	173
+16	Miriana	Morelli	+20 997 51 54 1939	morgana.moretti@rinaldi.net	Contrada Rita 5 Appartamento 71	1
+28	Rudy	Fontana		lombardo.nestore@colombo.it	Piazza Aroldo 8 Appartamento 85	110
+58	Pietro	Rizzo	+21 6710 0964205	sanna.michele@negri.it	Contrada Santoro 17 Appartamento 30	125
+22	Anselmo	Martino	+99 90 5086288	mgiuliani@testa.it	Borgo Elio 234 Piano 4	118
+74	Maika	Bellini		ferri.walter@martino.com	Strada Lombardi 855	137
+98	Cristyn	Martinelli		nicoletta67@longo.com	Contrada Amato 58 Piano 2	1
+65	Giovanna	Mariani		luna.rizzo@hotmail.com	Borgo Elga 89	2
+58	Pietro	Rizzo	+21 6710 0964205	sanna.michele@negri.it	Contrada Santoro 17 Appartamento 30	125
+22	Anselmo	Martino	+99 90 5086288	mgiuliani@testa.it	Borgo Elio 234 Piano 4	118
+39	Guendalina	Barbieri		davis34@yahoo.com	Via Giacinto 11 Piano 8	36
+87	Gianantonio	Monti	+39 076 918 693	mariagiulia.riva@gmail.com	Contrada Amato 58 Piano 2	112
+82	Felicia	Serra		egidio17@email.it	Strada Kociss 997 Piano 8	169
+89	Piererminio	Greco		gaetano.barone@yahoo.it	Via Mariano 48	129
+9	Demis	Marino		fulvio.grasso@hotmail.com	Borgo Elga 89	124
+5	Arduino	Vitali		nicoletta.marino@derosa.it	Borgo Martino 82 Appartamento 07	97
+15	Valdo	Carbone	+72 938 6591087	gianriccardo23@hotmail.com	Via Eusebio 167 Appartamento 28	106
+12	Arduino	Romano		abramo.gentile@benedetti.org	Strada Kociss 997 Piano 8	190
+86	Diamante	Barone		naomi56@lombardo.it	Contrada Santoro 17 Appartamento 30	34
