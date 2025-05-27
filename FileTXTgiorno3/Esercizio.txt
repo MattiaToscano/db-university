@@ -1060,3 +1060,27 @@ ORDER BY exam_id;
 1608	3	20.6667
 1609	1	13.0000
 1611	39	17.5641
+
+
+
+
+
+SELECT `department_id`, COUNT(*) as `count`
+from `degrees`
+group by `department_id`
+
+
+
+
+1	10
+2	4
+3	4
+4	9
+5	4
+6	6
+7	7
+8	8
+9	5
+10	8
+11	3
+12	7
